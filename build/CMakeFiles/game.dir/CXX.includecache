@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lisac/projects/2d_opengl/src/main.cpp
+iostream
+-
+SDL2/SDL.h
+-
+GL/glew.h
+-
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+util/GLShader.hpp
+/home/lisac/projects/2d_opengl/src/util/GLShader.hpp
+
+/home/lisac/projects/2d_opengl/src/util/GLShader.cpp
+GLShader.hpp
+/home/lisac/projects/2d_opengl/src/util/GLShader.hpp
+string
+-
+iostream
+-
+fstream
+-
+vector
+-
+algorithm
+-
+
+/home/lisac/projects/2d_opengl/src/util/GLShader.hpp
+GL/glew.h
+/home/lisac/projects/2d_opengl/src/util/GL/glew.h
+

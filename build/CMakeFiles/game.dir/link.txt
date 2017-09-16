@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/game.dir/src/main.cpp.o CMakeFiles/game.dir/src/util/GLShader.cpp.o  -o game -rdynamic -lSDL2 -lGLEW -lGL 
